@@ -43,6 +43,7 @@ body{
 }
 ::placeholder{
     color: rgb(71, 67, 67);
+    background-color: #fcca15;
 }
 
 .box{
