@@ -43,7 +43,6 @@ body{
 }
 ::placeholder{
     color: rgb(71, 67, 67);
-    background-color: #fcca15;
 }
 
 .box{
@@ -93,4 +92,13 @@ body{
     font-weight: 500;
     text-shadow: 0 4px rgb(43, 42, 42) ;
     
+}
+
+@media (max-width:900px) {
+    .container{
+    grid-template-columns: 100%;
+    }
+    .box{
+        margin-top: 50px;
+    }
 }
